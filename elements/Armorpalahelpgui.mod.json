@@ -1,0 +1,1701 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 1000,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "armorpalahelpgui.png",
+          "use1Xscale": false,
+          "x": 64,
+          "y": 20,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_palahelp_armor",
+          "text": {
+            "fixedValue": "Palahelp : Armor"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 166,
+          "y": 24,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_arrow_adminshop",
+          "image": "arrow_back_true_1.png",
+          "hoveredImage": "arrow_back_true2.png",
+          "onClick": {
+            "name": "Connectitemmenu"
+          },
+          "x": 318,
+          "y": 24,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cross_no_button",
+          "image": "cross_no_button.png",
+          "hoveredImage": "pointed_cross_no_button.png",
+          "onClick": {
+            "name": "Closegui"
+          },
+          "x": 339,
+          "y": 24,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_home_pixel_adminshop",
+          "image": "home_pixel_adminshop.png",
+          "hoveredImage": "pointec_home_pixel_adminshop.png",
+          "onClick": {
+            "name": "Backpalahelp"
+          },
+          "x": 299,
+          "y": 24,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_amethyst",
+          "text": {
+            "fixedValue": "Amethyst set"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 75,
+          "y": 40,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_titane_set",
+          "text": {
+            "fixedValue": "Titane set"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 143,
+          "y": 40,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_paladium_set",
+          "text": {
+            "fixedValue": "Paladium set"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 211,
+          "y": 40,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_endium_set",
+          "text": {
+            "fixedValue": "Endium set"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 279,
+          "y": 40,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mixed_set",
+          "text": {
+            "fixedValue": "Mixed set"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 75,
+          "y": 129,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_invisible_set",
+          "text": {
+            "fixedValue": "Invisible set"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 143,
+          "y": 129,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rainbow_set",
+          "text": {
+            "fixedValue": "Rainbow set"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 213,
+          "y": 129,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_travel_set",
+          "text": {
+            "fixedValue": "Travel set"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 279,
+          "y": 129,
+          "locked": true
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 76,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 76,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 76,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 76,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 144,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 144,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 144,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 144,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 212,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 212,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 10,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 212,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 11,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 212,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 12,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 280,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 13,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 280,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 14,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 280,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 15,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 280,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 16,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 76,
+          "y": 138,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 17,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 76,
+          "y": 158,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 18,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 76,
+          "y": 178,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 19,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 76,
+          "y": 198,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 20,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 144,
+          "y": 138,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 21,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 144,
+          "y": 158,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 22,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 144,
+          "y": 178,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 23,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 144,
+          "y": 198,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 24,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 212,
+          "y": 138,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 25,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 212,
+          "y": 158,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 26,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 212,
+          "y": 178,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 27,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 212,
+          "y": 198,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 28,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 280,
+          "y": 138,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 29,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 280,
+          "y": 158,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 30,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 280,
+          "y": 178,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 31,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 280,
+          "y": 198,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_name",
+          "text": {
+            "fixedValue": "Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 101,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_name1",
+          "text": {
+            "fixedValue": "Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_name2",
+          "text": {
+            "fixedValue": "Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 237,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_name3",
+          "text": {
+            "fixedValue": "Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 305,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_name4",
+          "text": {
+            "fixedValue": "Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 97,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_name5",
+          "text": {
+            "fixedValue": "Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 165,
+          "y": 142,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_name6",
+          "text": {
+            "fixedValue": "Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 233,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_name7",
+          "text": {
+            "fixedValue": "Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 301,
+          "y": 142,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_effect2",
+          "text": {
+            "fixedValue": "Effect"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 233,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_effect3",
+          "text": {
+            "fixedValue": "Effect"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 302,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_effect4",
+          "text": {
+            "fixedValue": "Effect"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 97,
+          "y": 162,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_effect5",
+          "text": {
+            "fixedValue": "Effect"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 164,
+          "y": 163,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_effect7",
+          "text": {
+            "fixedValue": "Effect"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 302,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_early_game",
+          "text": {
+            "fixedValue": "Early"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 99,
+          "y": 113,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_early",
+          "text": {
+            "fixedValue": "Early"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 170,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mid_game",
+          "text": {
+            "fixedValue": "Mid game"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 113,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_end_game",
+          "text": {
+            "fixedValue": "End game"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 299,
+          "y": 113,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_midend",
+          "text": {
+            "fixedValue": "Mid/End"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 98,
+          "y": 200,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_na",
+          "text": {
+            "fixedValue": "N.A"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 176,
+          "y": 201,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_na1",
+          "text": {
+            "fixedValue": "N.A"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 242,
+          "y": 201,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_na2",
+          "text": {
+            "fixedValue": "Mid game"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 301,
+          "y": 201,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_craftable",
+          "text": {
+            "fixedValue": "Craftable"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 94,
+          "y": 94,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_craftable1",
+          "text": {
+            "fixedValue": "Craftable"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 161,
+          "y": 94,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_craftable2",
+          "text": {
+            "fixedValue": "Craftable"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 230,
+          "y": 93,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_craftable3",
+          "text": {
+            "fixedValue": "Craftable"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 298,
+          "y": 94,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_craftable4",
+          "text": {
+            "fixedValue": "Craftable"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 94,
+          "y": 182,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_lb_normal",
+          "text": {
+            "fixedValue": "LB classic"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 161,
+          "y": 182,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_lb_classic",
+          "text": {
+            "fixedValue": "LB classic"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 230,
+          "y": 183,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_amethyst_armor",
+          "text": {
+            "fixedValue": "Amethyst armor "
+          },
+          "width": 46,
+          "height": 17,
+          "x": 94,
+          "y": 50,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_craftable5",
+          "text": {
+            "fixedValue": "Craftable"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 298,
+          "y": 182,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_set_is_craftable",
+          "text": {
+            "fixedValue": "This armor set is craftable "
+          },
+          "width": 47,
+          "height": 19,
+          "x": 94,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_is_obtenable_in_the_e",
+          "text": {
+            "fixedValue": "This armor is obtenable in the Early game"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 94,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_titane_armor_set",
+          "text": {
+            "fixedValue": "Titane armor set"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 162,
+          "y": 50,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_set_is_craftable1",
+          "text": {
+            "fixedValue": "This armor set is craftable"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 162,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_set_is_craftable2",
+          "text": {
+            "fixedValue": "This armor set is craftable"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 230,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_set_is_craftable3",
+          "text": {
+            "fixedValue": "This armor set is craftable"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 298,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_set_is_craftable4",
+          "text": {
+            "fixedValue": "This armor set is craftable"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 94,
+          "y": 178,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_set_is_craftable5",
+          "text": {
+            "fixedValue": "This armor set is craftable"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 298,
+          "y": 178,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_is_obtenable_in_the_e1",
+          "text": {
+            "fixedValue": "This armor is obtenable in the Early game"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 162,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_is_obtenable_in_the_m",
+          "text": {
+            "fixedValue": "This armor is obtenable in the Mid game"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 230,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_is_obtenable_in_the_m1",
+          "text": {
+            "fixedValue": "This armor is obtenable in the End game"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 298,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_is_obtenable_in_the_m2",
+          "text": {
+            "fixedValue": "This armor is obtenable in the Mid game"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 298,
+          "y": 198,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_is_obtenable_in_the_m3",
+          "text": {
+            "fixedValue": "This armor is obtenable in the Mid/End game"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 94,
+          "y": 198,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_set_is_in_in_lucky_bl",
+          "text": {
+            "fixedValue": "This armor set is in in Lucky block classic"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 162,
+          "y": 178,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_armor_set_is_in_in_lucky_bl1",
+          "text": {
+            "fixedValue": "This armor set is in in Lucky block classic"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 230,
+          "y": 178,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_paladium_armor_set",
+          "text": {
+            "fixedValue": "Paladium armor set / green Paladium set"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 230,
+          "y": 50,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_endium_armor_set",
+          "text": {
+            "fixedValue": "Endium armor set"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 298,
+          "y": 50,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_travel_armor_set",
+          "text": {
+            "fixedValue": "Travel armor set"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 298,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_rainbow_armor_set",
+          "text": {
+            "fixedValue": "Rainbow armor set"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 230,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_invisible_armor_set",
+          "text": {
+            "fixedValue": "Invisible armor set"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 162,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_mixed_endium_armor_set",
+          "text": {
+            "fixedValue": "Mixed endium armor set"
+          },
+          "width": 46,
+          "height": 17,
+          "x": 94,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_night_vision_helmet_strengh",
+          "text": {
+            "fixedValue": "Night Vision ( helmet ), Strenght ( chestplate ), Haste (leggins), Speed ( boots )"
+          },
+          "width": 24,
+          "height": 18,
+          "x": 298,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_night_vision_helmet_strengh1",
+          "text": {
+            "fixedValue": "Night Vision ( helmet ), Strenght ( chestplate ), Haste (leggins), Speed ( boots )"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 230,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_full_set_invisible",
+          "text": {
+            "fixedValue": "Full set : invisible "
+          },
+          "width": 22,
+          "height": 18,
+          "x": 322,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_night_vision_helmet_strengh2",
+          "text": {
+            "fixedValue": "Night Vision ( helmet ), Strenght ( chestplate ), Haste (leggins), Speed ( boots )"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 94,
+          "y": 158,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_night_vision_helmet_strengh3",
+          "text": {
+            "fixedValue": "Night Vision ( helmet ), Strenght ( chestplate ), Haste (leggins), Speed ( boots )"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 162,
+          "y": 158,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_underwater_breathing_helmet",
+          "text": {
+            "fixedValue": "Underwater breathing ( helmet ), Jump ( chestplate), Speed ( leggins ),"
+          },
+          "width": 46,
+          "height": 18,
+          "x": 298,
+          "y": 158,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_if_bugged",
+          "text": "If bugged ",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ArmorpalahelpguiThisGUIIsOpened"
+          },
+          "width": 57,
+          "height": 20,
+          "x": 76,
+          "y": 21,
+          "locked": false
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "ArmorpalahelpguiThisGUIIsOpened"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

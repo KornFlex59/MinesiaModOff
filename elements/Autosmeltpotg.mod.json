@@ -1,0 +1,34 @@
+{
+  "_fv": 73,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Auto Smelt",
+    "supportedSlots": "any",
+    "weight": 1,
+    "anvilCost": 8,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:Pickaxeofthegodslv18"
+      },
+      {
+        "value": "CUSTOM:Pickaxeofthegodslv19"
+      },
+      {
+        "value": "CUSTOM:Pickaxeofthegodslv17"
+      },
+      {
+        "value": "CUSTOM:Pickaxeofthegodslv20"
+      },
+      {
+        "value": "CUSTOM:Creativepotg"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}

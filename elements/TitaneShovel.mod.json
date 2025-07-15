@@ -1,0 +1,36 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "titane_shovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Titane Shovel",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Palamod"
+      }
+    ],
+    "efficiency": 16.0,
+    "attackSpeed": 0.1,
+    "enchantability": 30,
+    "damageVsEntity": 4.0,
+    "usageCount": 3999,
+    "repairItems": [
+      {
+        "value": "CUSTOM:TitaneIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

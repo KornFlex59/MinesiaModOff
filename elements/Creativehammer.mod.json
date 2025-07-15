@@ -1,0 +1,38 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "crea_hammer",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Creative trixium hammer",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Palamod"
+      }
+    ],
+    "efficiency": 99999.0,
+    "attackSpeed": 1.0,
+    "enchantability": 999,
+    "damageVsEntity": 0.0,
+    "usageCount": 0,
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "Smeltplus"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "Smeltplus"
+    }
+  }
+}

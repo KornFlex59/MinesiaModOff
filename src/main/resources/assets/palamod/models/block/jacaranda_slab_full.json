@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "palamod:block/jacaranda_planks",
+    "bottom": "palamod:block/jacaranda_planks",
+    "top": "palamod:block/jacaranda_planks",
+    "side": "palamod:block/jacaranda_planks"
+  },
+  "render_type": "solid"
+}

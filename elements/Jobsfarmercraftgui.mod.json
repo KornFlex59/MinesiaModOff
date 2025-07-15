@@ -1,0 +1,1265 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 300,
+    "height": 210,
+    "inventoryOffsetX": -63,
+    "inventoryOffsetY": 23,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "jobsminercraftgui.png",
+          "use1Xscale": false,
+          "x": 64,
+          "y": 15,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "left_gray_line.png",
+          "use1Xscale": false,
+          "x": 64,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mid_gray_line.png",
+          "use1Xscale": false,
+          "x": 164,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mid_gray_line.png",
+          "use1Xscale": false,
+          "x": 254,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "right_gray_line.png",
+          "use1Xscale": false,
+          "x": 264,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_jobs_miner_crafts",
+          "text": {
+            "fixedValue": "Jobs : Farmer crafts"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 170,
+          "y": 22,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_hor.png",
+          "use1Xscale": false,
+          "x": 345,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_hor.png",
+          "use1Xscale": false,
+          "x": 329,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_hor.png",
+          "use1Xscale": false,
+          "x": 313,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_hor.png",
+          "use1Xscale": false,
+          "x": 297,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_hor.png",
+          "use1Xscale": false,
+          "x": 281,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_hor.png",
+          "use1Xscale": false,
+          "x": 265,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_ver.png",
+          "use1Xscale": false,
+          "x": 235,
+          "y": 206,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_ver.png",
+          "use1Xscale": false,
+          "x": 235,
+          "y": 190,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_hor.png",
+          "use1Xscale": false,
+          "x": 249,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_ver.png",
+          "use1Xscale": false,
+          "x": 235,
+          "y": 174,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_ver.png",
+          "use1Xscale": false,
+          "x": 235,
+          "y": 158,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_ver.png",
+          "use1Xscale": false,
+          "x": 235,
+          "y": 142,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_hor.png",
+          "use1Xscale": false,
+          "x": 235,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "line_ver.png",
+          "use1Xscale": false,
+          "x": 235,
+          "y": 128,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_information",
+          "text": {
+            "fixedValue": "Information"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 238,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "onTakenFromSlot": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "x": 247,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "onTakenFromSlot": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "x": 265,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "onTakenFromSlot": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "x": 283,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "onTakenFromSlot": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "x": 247,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "onTakenFromSlot": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "x": 265,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "onTakenFromSlot": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "x": 283,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "onTakenFromSlot": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "x": 247,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "onTakenFromSlot": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "x": 265,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "onTakenFromSlot": {
+            "name": "Guijobsfarmcheckcraft"
+          },
+          "x": 283,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_right20.png",
+          "use1Xscale": true,
+          "x": 305,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cross_no_button",
+          "image": "cross_no_button.png",
+          "hoveredImage": "pointed_cross_no_button.png",
+          "onClick": {
+            "name": "Closegui"
+          },
+          "x": 341,
+          "y": 19,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close_the_gui",
+          "text": {
+            "fixedValue": "Close the Gui",
+            "name": "Closetheguitrans"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 341,
+          "y": 19,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_endium_pickaxe",
+          "image": "amethyst_hoe.png",
+          "hoveredImage": "amethyst_hoe_hover.png",
+          "onClick": {
+            "name": "Jobsminerfarmeramethysthoe"
+          },
+          "x": 74,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_potg_of_1",
+          "image": "titane_radius_hoe.png",
+          "hoveredImage": "titane_hoe_hover.png",
+          "onClick": {
+            "name": "Jobsfarmercrafttitanehoe"
+          },
+          "x": 94,
+          "y": 43,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_amethyste_exca",
+          "image": "paladium_radius_hoe.png",
+          "hoveredImage": "paladium_hoe_hover.png",
+          "onClick": {
+            "name": "Jobsfarmerpaladiumhoe"
+          },
+          "x": 112,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_titane_excavator",
+          "image": "endium_radius_hoe.png",
+          "hoveredImage": "endium_radius_hoe_hover.png",
+          "onClick": {
+            "name": "Jobsminerfarmerendiumhoe"
+          },
+          "x": 131,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_paladium_excavator",
+          "image": "green_paladium_radius_hoe.png",
+          "hoveredImage": "paladium_hoe_hover.png",
+          "onClick": {
+            "name": "Jobsminerfarmergreenpaladiumhoe"
+          },
+          "x": 150,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_magical_tool16",
+          "image": "seedplanter_amethyst.png",
+          "hoveredImage": "seedplanter_hover.png",
+          "onClick": {
+            "name": "Jobsminerfarmeramethystseedplanter"
+          },
+          "x": 169,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_voidstone",
+          "image": "seedplanter_titane.png",
+          "hoveredImage": "seedplanter_hover.png",
+          "onClick": {
+            "name": "Jobsminerfarmertitaneseedplanter"
+          },
+          "x": 188,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_obsidian_pickaxe",
+          "image": "seedplanter_paladium.png",
+          "hoveredImage": "seedplanter_hover.png",
+          "onClick": {
+            "name": "Jobsminerfarmerpaladiumseedplanter"
+          },
+          "x": 207,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_boom_obsi",
+          "image": "seedplanter_green_paladium.png",
+          "hoveredImage": "seedplanter_hover.png",
+          "onClick": {
+            "name": "Jobsminerfarmergreenpaladiumseedplanter"
+          },
+          "x": 226,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_big_obsi",
+          "image": "seedplanter_endium.png",
+          "hoveredImage": "seedplanter_hover.png",
+          "onClick": {
+            "name": "Jobsminerfarmerendiumseedplanter"
+          },
+          "x": 74,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_spike_obsi",
+          "image": "amethyst_backpack.png",
+          "hoveredImage": "backpack_hover.png",
+          "onClick": {
+            "name": "Jobsfarmercraftamethystbackpack"
+          },
+          "x": 112,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_spike_obsi_1",
+          "image": "titan_backpack.png",
+          "hoveredImage": "backpack_hover.png",
+          "onClick": {
+            "name": "Jobsfarmercrafttitanebackpack"
+          },
+          "x": 131,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_spike_obsi_2",
+          "image": "paladium_backpack.png",
+          "hoveredImage": "backpack_hover.png",
+          "onClick": {
+            "name": "Jobsfarmercraftpaladiumbackpack"
+          },
+          "x": 150,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_spike_obsi_3",
+          "image": "endium_backpack.png",
+          "hoveredImage": "backpack_hover.png",
+          "onClick": {
+            "name": "Jobsfarmercraftendiumbackpack"
+          },
+          "x": 169,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_spike_obsi_4",
+          "image": "colored_grass_seed.png",
+          "hoveredImage": "colored_seed_hover.png",
+          "onClick": {
+            "name": "Jobsminercraftamethystspike"
+          },
+          "x": 188,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_spike_obsi_5",
+          "image": "root_tree_foliage.png",
+          "hoveredImage": "block_white.png",
+          "onClick": {
+            "name": "Jobsminercrafttitanespike"
+          },
+          "x": 207,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_spike_obsi_6",
+          "image": "crusher_front.png",
+          "hoveredImage": "block_white.png",
+          "onClick": {
+            "name": "Jobsfarmercraftcrusher"
+          },
+          "x": 226,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_lava_obsi",
+          "image": "totem.png",
+          "hoveredImage": "block_white.png",
+          "onClick": {
+            "name": "Jobsfarmercraftfertilitytotem"
+          },
+          "x": 74,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_fake_obsi",
+          "image": "beta_block.png",
+          "hoveredImage": "block_white.png",
+          "onClick": {
+            "name": "Jobsfarmercraftfarmerthrone"
+          },
+          "x": 93,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_slime_obsi",
+          "image": "endium_chestplate.png",
+          "hoveredImage": "chestplate_hover.png",
+          "onClick": {
+            "name": "Jobsfarmercraftendiumchestplate"
+          },
+          "x": 112,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_poison_obsi",
+          "image": "endium_axe.png",
+          "hoveredImage": "endium_axe_hover.png",
+          "onClick": {
+            "name": "Jobsfarmercraftendiumaxe"
+          },
+          "x": 131,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_beta_block",
+          "image": "elevator_block.png",
+          "hoveredImage": "block_white.png",
+          "onClick": {
+            "name": "Jobsminerfarmerelevator"
+          },
+          "x": 93,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_endium_pickaxe",
+          "text": {
+            "fixedValue": "Amethyst hoe"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 74,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_pickaxe_of_the_gods",
+          "text": {
+            "fixedValue": "Titane hoe"
+          },
+          "width": 15,
+          "height": 16,
+          "x": 94,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_amethyst_excavator",
+          "text": {
+            "fixedValue": "Paladium hoe"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 112,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_titane_excavator",
+          "text": {
+            "fixedValue": "Endium hoe"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 131,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_paladium_excavator",
+          "text": {
+            "fixedValue": "Green paladium hoe "
+          },
+          "width": 16,
+          "height": 16,
+          "x": 150,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_magical_tool",
+          "text": {
+            "fixedValue": "Amethyst seedlplanter"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 169,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_voidstone",
+          "text": {
+            "fixedValue": "Titane seedplanter"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 188,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_obsidian_pickaxe",
+          "text": {
+            "fixedValue": "Paladium seedplanter"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 207,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_obsidian_tnt",
+          "text": {
+            "fixedValue": "Green Paladium seedplanter"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 226,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_compressed_obsidian",
+          "text": {
+            "fixedValue": "Endium seedplanter"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 74,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_mega_boom_tnt_soon",
+          "text": {
+            "fixedValue": "Elevator"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 93,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_wodden_spike_obsidian",
+          "text": {
+            "fixedValue": "Amethyst backpack"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 112,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_iron_spike_obsidian",
+          "text": {
+            "fixedValue": "Titane backpack"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 131,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_golden_spike_obsidian",
+          "text": {
+            "fixedValue": "Paladium backpack"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 150,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_diamond_spike_obsidian",
+          "text": {
+            "fixedValue": "Endium backpack"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 169,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_amethyst_spike_obsidian",
+          "text": {
+            "fixedValue": "Rooted seed"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 188,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_titane_spike_obsidian",
+          "text": {
+            "fixedValue": "Titane spike obsidian"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 207,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_paladium_spike_obsidian",
+          "text": {
+            "fixedValue": "Paladium Crusher"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 226,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_lava_obsidian",
+          "text": {
+            "fixedValue": "Totem of fertility"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 74,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_fake_water_obsidian",
+          "text": {
+            "fixedValue": "Farmer throne"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 93,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_slime_obsidian",
+          "text": {
+            "fixedValue": "Endium chesplate"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 112,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_poison_obsidian",
+          "text": {
+            "fixedValue": "Endium axe"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 131,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_jobsgetinfotext",
+          "text": {
+            "fixedValue": "",
+            "name": "Jobsgetinfotext"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 239,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_jobsgetlvlrequired",
+          "text": {
+            "fixedValue": "",
+            "name": "Jobsgetlvlrequired"
+          },
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "x": 241,
+          "y": 208,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_jobsgetinfotext_2",
+          "text": {
+            "fixedValue": "",
+            "name": "Jobsgetinfotext2"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 239,
+          "y": 154,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_jobsgetinfotext_3",
+          "text": {
+            "fixedValue": "",
+            "name": "Jobsgetinfotext3"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 239,
+          "y": 164,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_jobsgetdurability",
+          "text": {
+            "fixedValue": "",
+            "name": "Jobsgetdurability"
+          },
+          "color": {
+            "value": -16737895,
+            "falpha": 0.0
+          },
+          "x": 241,
+          "y": 198,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_jobsgetinfotext_4",
+          "text": {
+            "fixedValue": "",
+            "name": "Jobsgetinfotext4"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 239,
+          "y": 173,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_jobsgetinfotext_5",
+          "text": {
+            "fixedValue": "",
+            "name": "Jobsgetinfotext5"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 239,
+          "y": 182,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Craftdonefarmer"
+          },
+          "x": 325,
+          "y": 69,
+          "locked": false
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "Jobscraftsetup"
+    },
+    "onClosed": {
+      "name": "Dropitemcraft"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

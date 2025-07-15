@@ -1,0 +1,39 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "amethyste_exca",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Amethyste Exavator",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Palamod"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 1.0,
+    "enchantability": 20,
+    "damageVsEntity": 3.0,
+    "usageCount": 2999,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Amethyste"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "Excavatorprocessamethyst"
+    }
+  }
+}

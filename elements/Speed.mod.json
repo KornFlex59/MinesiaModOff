@@ -1,0 +1,31 @@
+{
+  "_fv": 73,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Speed",
+    "supportedSlots": "any",
+    "weight": 10,
+    "anvilCost": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:Endiumhammer"
+      },
+      {
+        "value": "CUSTOM:Paladiumhammer"
+      },
+      {
+        "value": "CUSTOM:Creativehammer"
+      },
+      {
+        "value": "CUSTOM:Greenpaladiumhammer"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

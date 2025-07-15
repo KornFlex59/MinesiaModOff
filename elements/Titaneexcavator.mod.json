@@ -1,0 +1,39 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "titane_excavator",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Titane Exavator",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Palamod"
+      }
+    ],
+    "efficiency": 16.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 3.0,
+    "usageCount": 3999,
+    "repairItems": [
+      {
+        "value": "CUSTOM:TitaneIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "Excavatorprocessamethyst"
+    }
+  }
+}

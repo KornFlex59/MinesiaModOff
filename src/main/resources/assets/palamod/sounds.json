@@ -1,0 +1,101 @@
+{
+  "lucky_alarm": {
+    "subtitle": "subtitles.lucky_alarm",
+    "sounds": [
+      {
+        "name": "palamod:goofyalarm",
+        "stream": false
+      }
+    ]
+  },
+  "miichallengemusic": {
+    "subtitle": "subtitles.miichallengemusic",
+    "sounds": [
+      {
+        "name": "palamod:miichalenge",
+        "stream": true
+      }
+    ]
+  },
+  "fuzedisc": {
+    "subtitle": "subtitles.fuzedisc",
+    "sounds": [
+      {
+        "name": "palamod:fuzeiii",
+        "stream": true
+      }
+    ]
+  },
+  "clash_kumiz": {
+    "subtitle": "subtitles.clash_kumiz",
+    "sounds": [
+      {
+        "name": "palamod:clash_kumiz",
+        "stream": true
+      }
+    ]
+  },
+  "anti_fuze_clash": {
+    "subtitle": "subtitles.anti_fuze_clash",
+    "sounds": [
+      {
+        "name": "palamod:anti_fuze",
+        "stream": true
+      }
+    ]
+  },
+  "roulette_paladienne": {
+    "subtitle": "subtitles.roulette_paladienne",
+    "sounds": [
+      {
+        "name": "palamod:roulette_paladienne",
+        "stream": true
+      }
+    ]
+  },
+  "level_up": {
+    "subtitle": "subtitles.level_up",
+    "sounds": [
+      {
+        "name": "palamod:levelup",
+        "stream": false
+      }
+    ]
+  },
+  "quest_complete": {
+    "subtitle": "subtitles.quest_complete",
+    "sounds": [
+      {
+        "name": "palamod:quest_complete",
+        "stream": false
+      }
+    ]
+  },
+  "totem_break1": {
+    "subtitle": "subtitles.totem_break1",
+    "sounds": [
+      {
+        "name": "palamod:totem_break1",
+        "stream": false
+      }
+    ]
+  },
+  "totem_break2": {
+    "subtitle": "subtitles.totem_break2",
+    "sounds": [
+      {
+        "name": "palamod:totem_break2",
+        "stream": false
+      }
+    ]
+  },
+  "totem_break3": {
+    "subtitle": "subtitles.totem_break3",
+    "sounds": [
+      {
+        "name": "palamod:totem_rare_break",
+        "stream": false
+      }
+    ]
+  }
+}

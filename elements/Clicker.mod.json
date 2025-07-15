@@ -1,0 +1,260 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 360,
+    "height": 210,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "clicker_v1.11.png",
+          "use1Xscale": false,
+          "x": 34,
+          "y": 15,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_clicker_skip",
+          "image": "clicker_skip.png",
+          "hoveredImage": "clicker_skip_hover.png",
+          "x": 263,
+          "y": 199,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_clicker_close_btn",
+          "image": "close_gui_nohover.png",
+          "hoveredImage": "close_gui_hover.png",
+          "onClick": {
+            "name": "Closegui"
+          },
+          "x": 370,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_clicker_potato_btn_v11",
+          "image": "clicker_potato_btn_v1.1.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Addclickcoin"
+          },
+          "x": 45,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_clickerprintcoins",
+          "text": {
+            "fixedValue": "",
+            "name": "Clickerprintcoins"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 46,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "clicker_button_noclick.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 53,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "clicker_button_noclick.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 76,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "clicker_button_noclick.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 98,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "clicker_button_noclick.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 121,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "clicker_button_noclick.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 143,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "clicker_button_noclick.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 166,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page_btn_off.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 196,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page_btn_off.png",
+          "use1Xscale": false,
+          "x": 366,
+          "y": 196,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "numbers.png",
+          "spritesCount": 9,
+          "spriteIndex": {
+            "fixedValue": 4.0,
+            "name": "Clickergetpageforsprite"
+          },
+          "x": 330,
+          "y": 196,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_page_up_clicker",
+          "image": "page_up_clicker.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Clickerpageup"
+          },
+          "displayCondition": {
+            "name": "Clickerconditionpageup"
+          },
+          "x": 366,
+          "y": 196,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_page_down",
+          "image": "page_down.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Clickerpagedown"
+          },
+          "displayCondition": {
+            "name": "Clickerconditionpagedown"
+          },
+          "x": 294,
+          "y": 196,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "numbers_mc_dungeons.png",
+          "spritesCount": 11,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Clickergetdizp1"
+          },
+          "x": 359,
+          "y": 56,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "numbers_mc_dungeons.png",
+          "spritesCount": 11,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Clickergetnump1"
+          },
+          "x": 368,
+          "y": 56,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_up",
+          "text": "up",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Debugupbuild1"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 8,
+          "y": 108,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 15,
+      "ox": 14,
+      "oy": 20,
+      "snapOnGrid": true
+    }
+  }
+}

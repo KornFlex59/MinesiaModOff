@@ -1,0 +1,176 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 350,
+    "height": 100,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_screen_beta_template_jobs",
+          "image": "screen_beta3_famer_jobs.png",
+          "hoveredImage": "screen_beta3_farm2.png",
+          "onClick": {
+            "name": "Connectfarmergui"
+          },
+          "x": 157,
+          "y": 108,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_screen_beta2_template_jobs",
+          "image": "screen_beta3_jobs_miner.png",
+          "hoveredImage": "screen_beta3_jobs_miner2.png",
+          "onClick": {
+            "name": "Connectjobsminergui"
+          },
+          "x": 79,
+          "y": 108,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_screen_beta2_template_jobs1",
+          "image": "screen_beta3_jobs_hunter.png",
+          "hoveredImage": "screen_beta3_jobs_hunter2.png",
+          "x": 240,
+          "y": 108,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_screen_beta2_template_jobs2",
+          "image": "screen_beta3_jobs_alchi.png",
+          "hoveredImage": "screen_beta3_jobs_alchi2.png",
+          "x": 311,
+          "y": 108,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_jobs",
+          "text": {
+            "fixedValue": "Jobs"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 200,
+          "y": 75,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_miner",
+          "text": {
+            "fixedValue": "Miner"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 85,
+          "y": 94,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_farmer",
+          "text": {
+            "fixedValue": "Farmer"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 163,
+          "y": 94,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_le_hunter",
+          "text": {
+            "fixedValue": "Hunter"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 244,
+          "y": 94,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_alchimist",
+          "text": {
+            "fixedValue": "Alchimist"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 307,
+          "y": 94,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jobs_gui_server.png",
+          "use1Xscale": false,
+          "x": 39,
+          "y": 70,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cross_no_button",
+          "image": "cross_no_button.png",
+          "hoveredImage": "pointed_cross_no_button.png",
+          "onClick": {
+            "name": "Closegui"
+          },
+          "x": 366,
+          "y": 76,
+          "locked": true
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

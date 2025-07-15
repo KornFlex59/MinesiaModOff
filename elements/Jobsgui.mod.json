@@ -1,0 +1,291 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 350,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_screen_beta_template_jobs",
+          "image": "screen_beta3_famer_jobs.png",
+          "hoveredImage": "screen_beta3_farm2.png",
+          "onClick": {
+            "name": "Connectfarmergui"
+          },
+          "x": 158,
+          "y": 77,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_screen_beta2_template_jobs",
+          "image": "screen_beta3_jobs_miner.png",
+          "hoveredImage": "screen_beta3_jobs_miner2.png",
+          "onClick": {
+            "name": "Connectjobsminergui"
+          },
+          "x": 80,
+          "y": 77,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_screen_beta2_template_jobs1",
+          "image": "screen_beta3_jobs_hunter.png",
+          "hoveredImage": "screen_beta3_jobs_hunter2.png",
+          "x": 240,
+          "y": 77,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_screen_beta2_template_jobs2",
+          "image": "screen_beta3_jobs_alchi.png",
+          "hoveredImage": "screen_beta3_jobs_alchi2.png",
+          "x": 311,
+          "y": 77,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_jobs",
+          "text": {
+            "fixedValue": "Jobs"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 199,
+          "y": 25,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_last_unlocked_items",
+          "text": {
+            "fixedValue": "Last unlocked items"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 47,
+          "y": 140,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_miner",
+          "text": {
+            "fixedValue": "Miner"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 87,
+          "y": 65,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_farmer",
+          "text": {
+            "fixedValue": "Farmer"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 162,
+          "y": 65,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_le_hunter",
+          "text": {
+            "fixedValue": "Hunter"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 246,
+          "y": 65,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_alchimist",
+          "text": {
+            "fixedValue": "Alchimist"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 308,
+          "y": 65,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jobsgui.png",
+          "use1Xscale": false,
+          "x": 39,
+          "y": 20,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cross_no_button",
+          "image": "cross_no_button.png",
+          "hoveredImage": "pointed_cross_no_button.png",
+          "onClick": {
+            "name": "Closegui"
+          },
+          "x": 367,
+          "y": 24,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_getlevelminer",
+          "text": {
+            "fixedValue": "",
+            "name": "Getlevelminer"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 119,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_getlevelfarmer1",
+          "text": {
+            "fixedValue": "get",
+            "name": "Getlevelfarmer"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 158,
+          "y": 119,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_getlevelhunter",
+          "text": {
+            "fixedValue": "",
+            "name": "Getlevelhunter"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 240,
+          "y": 119,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_getlevelalchi",
+          "text": {
+            "fixedValue": "GET",
+            "name": "Getlevelalchi"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 311,
+          "y": 119,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_lastunlockedminer",
+          "text": {
+            "fixedValue": "",
+            "name": "Lastunlockedminer"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 47,
+          "y": 154,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "sprite_last_unlocked_miner.png",
+          "spritesCount": 25,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Lastunlockedgetsprite"
+          },
+          "x": 49,
+          "y": 169,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

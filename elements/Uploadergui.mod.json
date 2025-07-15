@@ -1,0 +1,246 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "uploadergui.png",
+          "use1Xscale": false,
+          "x": 125,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_uploader",
+          "text": {
+            "fixedValue": "Uploader"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 190,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Uploaderprocess"
+          },
+          "x": 203,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inventory",
+          "text": {
+            "fixedValue": "Inventory",
+            "name": "Grindertrans0"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 108,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "golem_treec_sep_nt1.png",
+          "use1Xscale": true,
+          "x": 203,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Uploaderprocess"
+          },
+          "x": 203,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_uploaderdebug",
+          "text": {
+            "fixedValue": "",
+            "name": "Uploaderdebug"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 221,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_money_output",
+          "text": {
+            "fixedValue": "Money ( output )"
+          },
+          "width": 18,
+          "height": 18,
+          "x": 202,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "left_gray_line.png",
+          "use1Xscale": false,
+          "x": 125,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "right_gray_line.png",
+          "use1Xscale": false,
+          "x": 201,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cross_no_button",
+          "image": "cross_no_button.png",
+          "hoveredImage": "pointed_cross_no_button.png",
+          "onClick": {
+            "name": "Closegui"
+          },
+          "x": 278,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_items_you_want_to_sell_must_be",
+          "text": {
+            "fixedValue": "Items you want to sell ( must be in the adminshop )"
+          },
+          "width": 18,
+          "height": 18,
+          "x": 202,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close_the_gui",
+          "text": {
+            "fixedValue": "Close the Gui",
+            "name": "Closetheguitrans"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 278,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_gui_interface_need_an_upgra",
+          "text": {
+            "fixedValue": "This Gui interface need an upgrade"
+          },
+          "width": 46,
+          "height": 13,
+          "x": 187,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_help_img",
+          "image": "help_img.png",
+          "hoveredImage": "help_hover.png",
+          "x": 258,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_machine_is_to_sell_thing_to",
+          "text": {
+            "fixedValue": "This machine is to sell thing to the adminshop, Every 1000$ generated ; it will produce 1 wad of cash, click right on it to win 1000$"
+          },
+          "width": 16,
+          "height": 16,
+          "x": 258,
+          "y": 41,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

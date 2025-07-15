@@ -1,0 +1,292 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 215,
+    "height": 163,
+    "inventoryOffsetX": -1,
+    "inventoryOffsetY": 1,
+    "renderBgLayer": false,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "grindergui_v4.png",
+          "use1Xscale": false,
+          "x": 106,
+          "y": 39,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 132,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 132,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 231,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_varg_num_100",
+          "text": {
+            "fixedValue": "<VAR:g_num> /100",
+            "name": "Grindertrans1"
+          },
+          "color": {
+            "value": -4671036,
+            "falpha": 0.0
+          },
+          "x": 250,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 182,
+          "y": 50,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_help_button",
+          "image": "help_button.png",
+          "hoveredImage": "help_button_poi.png",
+          "onClick": {
+            "name": "Connectgrinderpag1"
+          },
+          "x": 299,
+          "y": 180,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 132,
+          "y": 97,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 182,
+          "y": 97,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "btn-all_off.png",
+          "use1Xscale": false,
+          "x": 266,
+          "y": 102,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "btn-blue_on.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lightbluegrinderon"
+          },
+          "x": 296,
+          "y": 102,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "btn-red_on.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lightredgrinderon"
+          },
+          "x": 266,
+          "y": 102,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "btn-green_on.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lightgreengrinderon"
+          },
+          "x": 281,
+          "y": 102,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "grinder_sprite_full.png",
+          "spritesCount": 51,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Progressbargrinderspritereturn"
+          },
+          "x": 258,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "fire_furnace.png",
+          "spritesCount": 15,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Returntimerinputgrinder"
+          },
+          "x": 232,
+          "y": 64,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "arrow_right_furnace_sprite.png",
+          "spritesCount": 23,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "x": 159,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "arrow_right_furnace_sprite.png",
+          "spritesCount": 23,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Grindergettimercraft"
+          },
+          "x": 155,
+          "y": 52,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "arrow_right_furnace_sprite.png",
+          "spritesCount": 23,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Grindergettimerfusion"
+          },
+          "x": 154,
+          "y": 99,
+          "locked": false
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "Grinderadvancementreq"
+    },
+    "gridSettings": {
+      "sx": 40,
+      "sy": 18,
+      "ox": 12,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

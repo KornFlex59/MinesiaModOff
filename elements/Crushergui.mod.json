@@ -1,0 +1,477 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 335,
+    "height": 205,
+    "inventoryOffsetX": -72,
+    "inventoryOffsetY": 19,
+    "renderBgLayer": false,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "crusher_gui_v2.png",
+          "use1Xscale": false,
+          "x": 46,
+          "y": 18,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_paladium_crusher",
+          "text": {
+            "fixedValue": "Paladium crusher"
+          },
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "x": 167,
+          "y": 21,
+          "locked": true
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:forge:palamd_fruits"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Crusherluncherv2"
+          },
+          "x": 52,
+          "y": 37,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inventaire",
+          "text": {
+            "fixedValue": "Inventory"
+          },
+          "color": {
+            "value": -1315861,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 127,
+          "locked": true
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:mod:palamodmoddedfuel"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Crusherluncherv2"
+          },
+          "x": 52,
+          "y": 73,
+          "locked": true
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Crusherluncherv2"
+          },
+          "x": 205,
+          "y": 116,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fuel",
+          "text": {
+            "fixedValue": "Fuel"
+          },
+          "color": {
+            "value": -3394816,
+            "falpha": 0.0
+          },
+          "x": 73,
+          "y": 76,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fruits",
+          "text": {
+            "fixedValue": "Fruits"
+          },
+          "color": {
+            "value": -3407668,
+            "falpha": 0.0
+          },
+          "x": 72,
+          "y": 42,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "amethystmixedcoal.png",
+          "use1Xscale": false,
+          "x": 223,
+          "y": 158,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "titanemixedcoal.png",
+          "use1Xscale": false,
+          "x": 223,
+          "y": 176,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "goldmixedcoal.png",
+          "use1Xscale": false,
+          "x": 223,
+          "y": 140,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "palamixedcoal.png",
+          "use1Xscale": false,
+          "x": 223,
+          "y": 194,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "eggplante_crusher_v2.png",
+          "use1Xscale": false,
+          "x": 53,
+          "y": 38,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "amethyst_ingot.png",
+          "use1Xscale": false,
+          "x": 240,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "titane_ingot.png",
+          "use1Xscale": false,
+          "x": 240,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "endium_nugets_vfufu.png",
+          "use1Xscale": false,
+          "x": 358,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "paladium_ingot.png",
+          "use1Xscale": false,
+          "x": 358,
+          "y": 38,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_crusher.png",
+          "use1Xscale": false,
+          "x": 53,
+          "y": 74,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_v2004",
+          "text": {
+            "fixedValue": "v2.6.0"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 345,
+          "y": 210,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_aue",
+          "text": {
+            "fixedValue": "//ame",
+            "name": "Crushercustominfoame"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Crushertextad4"
+          },
+          "x": 169,
+          "y": 56,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_crushercustominfotitane",
+          "text": {
+            "fixedValue": "",
+            "name": "Crushercustominfotitane"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Crushertextad3"
+          },
+          "x": 170,
+          "y": 88,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_crushercustominfopaladium",
+          "text": {
+            "fixedValue": "",
+            "name": "Crushercustominfopaladium"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Crushertextad2"
+          },
+          "x": 275,
+          "y": 56,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_crushercustominfoendium",
+          "text": {
+            "fixedValue": "",
+            "name": "Crushercustominfoendium"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Crushertextad"
+          },
+          "x": 291,
+          "y": 88,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_button_white3",
+          "image": "button_white.png",
+          "hoveredImage": "button_gray.png",
+          "onClick": {
+            "name": "Crusherluncherv2titane"
+          },
+          "x": 146,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_button_white4",
+          "image": "button_white.png",
+          "hoveredImage": "button_blue.png",
+          "onClick": {
+            "name": "Crusherluncherv2endium"
+          },
+          "x": 265,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_button_white5",
+          "image": "button_white.png",
+          "hoveredImage": "button_purple.png",
+          "onClick": {
+            "name": "Crusherluncherv2amethyst"
+          },
+          "x": 146,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_button_white6",
+          "image": "button_white.png",
+          "hoveredImage": "button_red.png",
+          "onClick": {
+            "name": "Crusherluncherv2paladium"
+          },
+          "x": 265,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "pgbar_ame_full.png",
+          "spritesCount": 17,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Crushersubprocessv3baramethyst"
+          },
+          "x": 244,
+          "y": 142,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "titane_pgbar_full.png",
+          "spritesCount": 33,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "x": 244,
+          "y": 159,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "paladium_pgbar_full.png",
+          "spritesCount": 33,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Crushersubprocessv3barpaladium"
+          },
+          "x": 244,
+          "y": 179,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "pgbar_endium_v1.2.png",
+          "spritesCount": 128,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Crushersubprocessv3barendium"
+          },
+          "x": 244,
+          "y": 198,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "flamme_crusher_sprite.png",
+          "spritesCount": 10,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "Crushersubprocessflamespritereturn"
+          },
+          "x": 53,
+          "y": 56,
+          "locked": true
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
